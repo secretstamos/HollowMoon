@@ -1,0 +1,655 @@
+{
+	"tile_info": [{
+			"width": 24,
+			"height": 24
+		}
+	],
+	"tiles-new": [{
+			"file": "normal_characters.png",
+			"tiles": [{
+					"id": "cursor",
+					"fg": 1
+				}, {
+					"id": "cursor_season_autumn",
+					"fg": 2
+				}, {
+					"id": "cursor_season_winter",
+					"fg": 4
+				}, {
+					"id": "cursor_season_summer",
+					"fg": 3
+				}, {
+					"id": ["highlight", "line_target", "line_trail", "cursor"],
+					"fg": {
+						"weight": 1,
+						"sprite": 5
+					}
+				}, {
+					"id": "line_trail_season_autumn",
+					"fg": {
+						"weight": 1,
+						"sprite": 6
+					}
+				}, {
+					"id": "line_trail_season_winter",
+					"fg": {
+						"weight": 1,
+						"sprite": 8
+					}
+				}, {
+					"id": "line_trail_season_summer",
+					"fg": {
+						"weight": 1,
+						"sprite": 7
+					}
+				}, {
+					"id": "player_female",
+					"fg": 9
+				}, {
+					"id": "player_male",
+					"fg": 10,
+					"rotates": false
+				}, {
+					"id": "player_male_season_autumn",
+					"fg": 11,
+					"rotates": false
+				}, {
+					"id": "player_male_season_winter",
+					"fg": 13,
+					"rotates": false
+				}, {
+					"id": "player_male_season_summer",
+					"fg": 12,
+					"rotates": false
+				}
+			],
+			"//": "range 1 to 16"
+		}, {
+			"file": "normal_food.png",
+			"tiles": [],
+			"//": "range 17 to 32"
+		}, {
+			"file": "normal_items.png",
+			"tiles": [],
+			"//": "range 33 to 48"
+		}, {
+			"file": "normal_monsters.png",
+			"tiles": [{
+					"id": "mon_dog_gshepherd",
+					"fg": 49,
+					"rotates": false
+				}, {
+					"id": "mon_dog_gshepherd_season_autumn",
+					"fg": 50,
+					"rotates": false
+				}, {
+					"id": "mon_dog_gshepherd_season_winter",
+					"fg": 52,
+					"rotates": false
+				}, {
+					"id": "mon_dog_gshepherd_season_summer",
+					"fg": 51,
+					"rotates": false
+				}, {
+					"id": "mon_razorclaw",
+					"fg": 53,
+					"rotates": false
+				}, {
+					"id": "mon_razorclaw_season_autumn",
+					"fg": 54,
+					"rotates": false
+				}, {
+					"id": "mon_razorclaw_season_winter",
+					"fg": 56,
+					"rotates": false
+				}, {
+					"id": "mon_razorclaw_season_summer",
+					"fg": 55,
+					"rotates": false
+				}, {
+					"id": "mon_zombie",
+					"fg": [{
+							"weight": 5,
+							"sprite": 57
+						}, {
+							"weight": 3,
+							"sprite": 58
+						}, {
+							"weight": 2,
+							"sprite": 59
+						}, {
+							"weight": 1,
+							"sprite": 60
+						}
+					]
+				}, {
+					"id": "mon_zombie_season_autumn",
+					"fg": [{
+							"weight": 5,
+							"sprite": 61
+						}, {
+							"weight": 3,
+							"sprite": 62
+						}, {
+							"weight": 2,
+							"sprite": 63
+						}, {
+							"weight": 1,
+							"sprite": 64
+						}
+					]
+				}, {
+					"id": "mon_zombie_season_winter",
+					"fg": [{
+							"weight": 5,
+							"sprite": 69
+						}, {
+							"weight": 3,
+							"sprite": 70
+						}, {
+							"weight": 2,
+							"sprite": 71
+						}, {
+							"weight": 1,
+							"sprite": 72
+						}
+					]
+				}, {
+					"id": "mon_zombie_season_summer",
+					"fg": [{
+							"weight": 5,
+							"sprite": 65
+						}, {
+							"weight": 3,
+							"sprite": 66
+						}, {
+							"weight": 2,
+							"sprite": 67
+						}, {
+							"weight": 1,
+							"sprite": 68
+						}
+					]
+				}, {
+					"id": "mon_zombie_cop",
+					"fg": 73,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_cop_season_autumn",
+					"fg": 74,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_cop_season_winter",
+					"fg": 76,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_cop_season_summer",
+					"fg": 75,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_master",
+					"fg": 77,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_master_season_autumn",
+					"fg": 78,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_master_season_winter",
+					"fg": 80,
+					"rotates": false
+				}, {
+					"id": "mon_zombie_master_season_summer",
+					"fg": 79,
+					"rotates": false
+				}
+			],
+			"//": "range 49 to 96"
+		}, {
+			"file": "normal_terrain.png",
+			"tiles": [{
+					"id": "t_dirt",
+					"fg": [{
+							"weight": 3,
+							"sprite": 97
+						}, {
+							"weight": 1,
+							"sprite": 98
+						}, {
+							"weight": 1,
+							"sprite": 99
+						}
+					]
+				}, {
+					"id": "t_dirt_season_autumn",
+					"fg": [{
+							"weight": 3,
+							"sprite": 100
+						}, {
+							"weight": 1,
+							"sprite": 101
+						}, {
+							"weight": 1,
+							"sprite": 102
+						}
+					]
+				}, {
+					"id": "t_dirt_season_winter",
+					"fg": [{
+							"weight": 3,
+							"sprite": 106
+						}, {
+							"weight": 1,
+							"sprite": 107
+						}, {
+							"weight": 1,
+							"sprite": 108
+						}
+					]
+				}, {
+					"id": "t_dirt_season_summer",
+					"fg": [{
+							"weight": 3,
+							"sprite": 103
+						}, {
+							"weight": 1,
+							"sprite": 104
+						}, {
+							"weight": 1,
+							"sprite": 105
+						}
+					]
+				}, {
+					"id": "t_floor",
+					"fg": [{
+							"weight": 12,
+							"sprite": 109
+						}, {
+							"weight": 1,
+							"sprite": 110
+						}, {
+							"weight": 1,
+							"sprite": 111
+						}
+					]
+				}, {
+					"id": "t_floor_season_autumn",
+					"fg": [{
+							"weight": 12,
+							"sprite": 112
+						}, {
+							"weight": 1,
+							"sprite": 113
+						}, {
+							"weight": 1,
+							"sprite": 114
+						}
+					]
+				}, {
+					"id": "t_floor_season_winter",
+					"fg": [{
+							"weight": 12,
+							"sprite": 118
+						}, {
+							"weight": 1,
+							"sprite": 119
+						}, {
+							"weight": 1,
+							"sprite": 120
+						}
+					]
+				}, {
+					"id": "t_floor_season_summer",
+					"fg": [{
+							"weight": 12,
+							"sprite": 115
+						}, {
+							"weight": 1,
+							"sprite": 116
+						}, {
+							"weight": 1,
+							"sprite": 117
+						}
+					]
+				}, {
+					"id": "t_grass",
+					"fg": [{
+							"weight": 12,
+							"sprite": 121
+						}, {
+							"weight": 1,
+							"sprite": 122
+						}
+					]
+				}, {
+					"id": "t_grass_season_autumn",
+					"fg": [{
+							"weight": 12,
+							"sprite": 123
+						}, {
+							"weight": 1,
+							"sprite": 124
+						}
+					]
+				}, {
+					"id": "t_grass_season_winter",
+					"fg": [{
+							"weight": 12,
+							"sprite": 127
+						}, {
+							"weight": 1,
+							"sprite": 128
+						}
+					]
+				}, {
+					"id": "t_grass_season_summer",
+					"fg": [{
+							"weight": 12,
+							"sprite": 125
+						}, {
+							"weight": 1,
+							"sprite": 126
+						}
+					]
+				}, {
+					"id": "t_grass_long",
+					"fg": [{
+							"weight": 2,
+							"sprite": 129
+						}, {
+							"weight": 4,
+							"sprite": 130
+						}, {
+							"weight": 1,
+							"sprite": 131
+						}, {
+							"weight": 1,
+							"sprite": 132
+						}
+					]
+				}, {
+					"id": "t_grass_long_season_autumn",
+					"fg": [{
+							"weight": 2,
+							"sprite": 133
+						}, {
+							"weight": 4,
+							"sprite": 134
+						}, {
+							"weight": 1,
+							"sprite": 135
+						}, {
+							"weight": 1,
+							"sprite": 136
+						}
+					]
+				}, {
+					"id": "t_grass_long_season_winter",
+					"fg": [{
+							"weight": 2,
+							"sprite": 141
+						}, {
+							"weight": 4,
+							"sprite": 142
+						}, {
+							"weight": 1,
+							"sprite": 143
+						}, {
+							"weight": 1,
+							"sprite": 144
+						}
+					]
+				}, {
+					"id": "t_grass_long_season_summer",
+					"fg": [{
+							"weight": 2,
+							"sprite": 137
+						}, {
+							"weight": 4,
+							"sprite": 138
+						}, {
+							"weight": 1,
+							"sprite": 139
+						}, {
+							"weight": 1,
+							"sprite": 140
+						}
+					]
+				}, {
+					"id": "t_grass_tall",
+					"fg": [{
+							"weight": 3,
+							"sprite": 145
+						}, {
+							"weight": 1,
+							"sprite": 146
+						}, {
+							"weight": 1,
+							"sprite": 147
+						}, {
+							"weight": 1,
+							"sprite": 148
+						}
+					]
+				}, {
+					"id": "t_grass_tall_season_autumn",
+					"fg": [{
+							"weight": 3,
+							"sprite": 149
+						}, {
+							"weight": 1,
+							"sprite": 150
+						}, {
+							"weight": 1,
+							"sprite": 151
+						}, {
+							"weight": 1,
+							"sprite": 152
+						}
+					]
+				}, {
+					"id": "t_grass_tall_season_winter",
+					"fg": [{
+							"weight": 3,
+							"sprite": 157
+						}, {
+							"weight": 1,
+							"sprite": 158
+						}, {
+							"weight": 1,
+							"sprite": 159
+						}, {
+							"weight": 1,
+							"sprite": 160
+						}
+					]
+				}, {
+					"id": "t_grass_tall_season_summer",
+					"fg": [{
+							"weight": 3,
+							"sprite": 153
+						}, {
+							"weight": 1,
+							"sprite": 154
+						}, {
+							"weight": 1,
+							"sprite": 155
+						}, {
+							"weight": 1,
+							"sprite": 156
+						}
+					]
+				}, {
+					"id": "t_wall",
+					"multitile": true,
+					"fg": 176,
+					"additional_tiles": [{
+							"id": "center",
+							"fg": 161
+						}, {
+							"id": "corner",
+							"fg": [163, 165, 164, 162]
+						}, {
+							"id": "t_connection",
+							"fg": [173, 175, 174, 172]
+						}, {
+							"id": "edge",
+							"fg": [167, 166]
+						}, {
+							"id": "end_piece",
+							"fg": [169, 171, 170, 168]
+						}, {
+							"id": "unconnected",
+							"fg": 176
+						}
+					]
+				}
+			],
+			"//": "range 97 to 192"
+		}, {
+			"file": "normal_weapons.png",
+			"tiles": [{
+					"id": ["glock_17", "glock_18c", "glock_22", "glock_31", "usp_9mm", "usp_45"],
+					"fg": 193,
+					"rotates": false
+				}, {
+					"id": ["glock_17_season_autumn", "glock_18c_season_autumn", "glock_22_season_autumn", "glock_31_season_autumn", "usp_9mm_season_autumn", "usp_45_season_autumn"],
+					"fg": 194,
+					"rotates": false
+				}, {
+					"id": ["glock_17_season_winter", "glock_18c_season_winter", "glock_22_season_winter", "glock_31_season_winter", "usp_9mm_season_winter", "usp_45_season_winter"],
+					"fg": 196,
+					"rotates": false
+				}, {
+					"id": ["glock_17_season_summer", "glock_18c_season_summer", "glock_22_season_summer", "glock_31_season_summer", "usp_9mm_season_summer", "usp_45_season_summer"],
+					"fg": 195,
+					"rotates": false
+				}, {
+					"id": "m14mag",
+					"fg": 197,
+					"rotates": false
+				}, {
+					"id": "m14mag_season_autumn",
+					"fg": 198,
+					"rotates": false
+				}, {
+					"id": "m14mag_season_winter",
+					"fg": 200,
+					"rotates": false
+				}, {
+					"id": "m14mag_season_summer",
+					"fg": 199,
+					"rotates": false
+				}
+			],
+			"//": "range 193 to 208"
+		}, {
+			"file": "large_monsters.png",
+			"tiles": [{
+					"id": "mon_alpha_razorclaw",
+					"fg": 209,
+					"rotates": false
+				}, {
+					"id": "mon_alpha_razorclaw_season_autumn",
+					"fg": 210,
+					"rotates": false
+				}, {
+					"id": "mon_alpha_razorclaw_season_winter",
+					"fg": 212,
+					"rotates": false
+				}, {
+					"id": "mon_alpha_razorclaw_season_summer",
+					"fg": 211,
+					"rotates": false
+				}, {
+					"id": "mon_kreck",
+					"fg": 213,
+					"rotates": false
+				}, {
+					"id": "mon_kreck_season_autumn",
+					"fg": 214,
+					"rotates": false
+				}, {
+					"id": "mon_kreck_season_winter",
+					"fg": 216,
+					"rotates": false
+				}, {
+					"id": "mon_kreck_season_summer",
+					"fg": 215,
+					"rotates": false
+				}
+			],
+			"//": "range 209 to 224",
+			"sprite_width": 32,
+			"sprite_height": 32,
+			"sprite_offset_x": 0,
+			"sprite_offset_y": 0
+		}, {
+			"file": "huge_monsters.png",
+			"tiles": [{
+					"id": "mon_yugg",
+					"fg": 225,
+					"rotates": false
+				}, {
+					"id": "mon_yugg_season_autumn",
+					"fg": 226,
+					"rotates": false
+				}, {
+					"id": "mon_yugg_season_winter",
+					"fg": 228,
+					"rotates": false
+				}, {
+					"id": "mon_yugg_season_summer",
+					"fg": 227,
+					"rotates": false
+				}
+			],
+			"//": "range 225 to 240",
+			"sprite_width": 48,
+			"sprite_height": 48,
+			"sprite_offset_x": 0,
+			"sprite_offset_y": 0
+		}, {
+			"file": "giant_terrain.png",
+			"tiles": [{
+					"id": "t_tree",
+					"fg": 241,
+					"rotates": false
+				}, {
+					"id": "t_tree_season_autumn",
+					"fg": 242,
+					"rotates": false
+				}, {
+					"id": "t_tree_season_winter",
+					"fg": 244,
+					"rotates": false
+				}, {
+					"id": "t_tree_season_summer",
+					"fg": 243,
+					"rotates": false
+				}, {
+					"id": "t_tree_oak",
+					"fg": 245,
+					"rotates": false
+				}, {
+					"id": "t_tree_oak_season_autumn",
+					"fg": 246,
+					"rotates": false
+				}, {
+					"id": "t_tree_oak_season_winter",
+					"fg": 248,
+					"rotates": false
+				}, {
+					"id": "t_tree_oak_season_summer",
+					"fg": 247,
+					"rotates": false
+				}
+			],
+			"//": "range 241 to 256",
+			"sprite_width": 64,
+			"sprite_height": 64,
+			"sprite_offset_x": 0,
+			"sprite_offset_y": 0
+		}
+	]
+}
